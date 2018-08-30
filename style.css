@@ -1,0 +1,1919 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+}
+
+#back{
+    width: 100%;
+    height: 120%;
+    background-color:white;
+}
+
+#backup{
+    width: 100%;
+    height: 180px;
+    background-color:#ecf0f1;
+}
+
+#backupfirst{
+    width: 100%;
+    height: 90px;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #898c91;
+}
+
+#backupfirst h1{
+    font-size: 40px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#backupfirstdiv{
+    margin-top: 15px;
+    width: 40%; 
+    height: 50px;
+    background-color: #2f3131;
+    display: flex;
+    position: relative;
+    padding: 10px 20px;
+    left: -50px;
+}
+
+#backupfirstdiv h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#backupfirstdiv h2{
+    font-size: 18px;
+    padding: 3px 10px ;
+    color: #EAB543;
+}
+
+#backupfirstdiv h2 span{
+    position: relative;
+    left: 20px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+
+
+#backupfirst h1 button{
+    position: relative;
+    top: -30px;
+    font-size: 15   px;
+    background-color: #d63031;
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#backupsecend{
+    width: 100%;
+    height: 40px;
+    background-color:#dbdee0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 10px 30px;
+    color: black;
+    font-family: 'Arimo', sans-serif;
+    border-bottom: 4px solid black;
+}
+
+
+#backupthird{
+    width: 80%;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #ecf0f1;
+}
+
+#backupthirdbtn{
+    padding: 0px 30px;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    
+    background-color:red ;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+#backupthird p{
+    padding: 12px 20px;
+    color: #535c68;
+    font-size: 18px;
+}
+
+
+#backdown{
+    width: 100%;
+    height: 540px;
+    background-color: #ecf0f1;
+    
+    display: flex;
+}
+
+#backdownleft{
+    width: 70%;
+    min-height: 500px;
+    background-color:#ecf0f1;
+    padding: 3px 0px;
+}
+
+#backdownleftimag{
+    width: 100%;
+    height: 74%;
+    background-image: url('web7.jpg');
+    background-size: cover;
+}
+
+#backdownleftcontain{
+    width: 100%;
+    height: 26%;
+    background-color: #2d3436;
+    padding: 10px 10px;
+    border-bottom: 2px solid black;
+}
+
+#backdownleftcontain h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+#backdownleftcontain p{
+    color: rgb(172, 167, 167);
+    font-size: 17px;
+}
+
+#backdownright{
+    width: 30%;
+    height: 460px;
+    background-color: #ecf0f1;
+    padding: 10px 0px 10px 10px;
+}
+
+#backdownrightup{
+    width: 100%;
+    height: 80px;
+    background-color:#d3d3d4;
+    display: flex;  
+    border-bottom: 4px solid black;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+
+#backdownrightup p{
+    padding: 6px;
+    font-size: 20px;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+#lo span{
+    
+    color:#0a9ba8 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    padding-bottom: 8px;
+
+
+}
+
+#loo span{
+    color: rgb(4, 4, 80);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    padding-bottom: 8px;
+
+
+}
+
+#looo span{
+    color: rgb(235, 165, 14);
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+
+#backdownrightdown{
+    width: 100%;
+    height: inherit;
+    background-color:#ecf0f1;
+}
+
+
+#rightdowna{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+
+
+#rightdownaimag{
+    width: 34%;
+    height: inherit;
+    background-image: url('airo.jpg');
+    background-size: cover;
+}
+
+#rightdownacontain{
+    width: 70%;
+    height: inherit;
+    background-color: #ecf0f1;
+    padding: 5px 10px;
+}
+
+#rightdownacontain h3{
+color: rgb(168, 164, 164);
+}
+
+
+
+#rightdownb{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+#rightdownbimag{
+    width: 34%;
+    height: inherit;
+    background-image: url('ipadweb.jpg');
+    background-size: cover;
+}
+
+#rightdownbcontain{
+    width: 70%;
+    height: inherit;
+    background-color: #ecf0f1;
+    padding: 5px 10px;
+}
+
+
+
+#rightdownc{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    margin-bottom: 15px;
+    display: flex;
+
+}
+
+#rightdowncimag{
+    width: 34%;
+    height: inherit;
+    background-image: url('bmwweb.jpg');
+    background-size: cover;
+    display: flex;
+}
+
+#rightdownccontain{
+    width: 68%;
+    height: inherit;
+    background-color: #ecf0f1;
+    padding: 5px 10px;
+}
+
+
+#rightdownd{
+    width: 100%;
+    height: 100px;
+    background-color: yellow;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+#rightdowndimag{
+    width: 34%;
+    height: inherit;
+    background-image: url('ip3.png');
+    background-size: cover;
+}
+
+#rightdowndcontain{
+    width: 68%;
+    height: inherit;
+    background-color: #ecf0f1;
+    padding: 5px 10px;
+}
+
+#rightdownacontain p{
+padding-bottom: 10px;
+font-size: 17px;
+
+}
+#rightdownacontain h3{
+    font-size: 13px;
+    color: rgb(168, 163, 163);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rightdownbcontain p{
+    padding-bottom: 10px;
+    font-size: 17px;
+
+    }
+    #rightdownbcontain h3{
+        font-size: 13px;
+        color: rgb(150, 147, 147);
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    #rightdownccontain p{
+        padding-bottom: 10px;
+        font-size: 17px;
+
+        }
+        #rightdownccontain h3{
+            font-size: 13px;
+            color: rgb(146, 140, 140);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+
+        #rightdowndcontain p{
+            padding-bottom: 10px;
+            font-size: 17px;
+
+            }
+            #rightdowndcontain h3{
+                font-size: 13px;
+                color: rgb(155, 154, 154);
+    font-family: Arial, Helvetica, sans-serif;
+
+            }
+
+#backsecend{
+    width: 100%;
+    height: 90%;
+    background-color: #ecf0f1;
+    padding-top: 0px;
+    display: flex;
+}
+
+#backsecendleft{
+    width: 70%;
+    height: 90%;
+    background-color:#ecf0f1;
+    padding: 0px 0px;
+
+}
+
+#backsecendleftfirst{
+    width: 100%;
+    height: 60px;
+
+    background-color: #ecf0f1;
+    border-bottom: 4px solid black;
+    padding: 10px 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#backsecendleftsecend{
+    width: 100%;
+    height: 270px;
+    background-color:#ecf0f1;
+    padding: 10px 0px 5px 0px;
+    display: flex;
+    border-bottom: 0.5px solid rgb(160, 155, 155);
+    margin-bottom: 10px;
+
+}
+
+#backsecendleftsecendimag{
+    width: 50%;
+    height: 250px;
+    background-image: url('travelweb.jpg');
+    background-size: cover;
+}
+
+#backsecendleftsecendcontain{
+    width: 50%;   
+     height: 250px;
+    background-color: #ecf0f1;
+    padding: 0px 10px;
+
+}
+
+#backsecendleftsecendcontain h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+#backsecendleftsecendcontain h3{
+
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 95, 95);
+}
+
+#backsecendleftsecendcontain p{
+
+    padding-bottom: 15px;
+}
+
+#backsecendleftsecendcontain button{
+
+padding-bottom: 10px;
+padding: 6px 10px;
+border: none;
+margin-bottom: 12px;
+}
+
+#backsecendstars
+{
+    display: flex;
+    color: #f1c40f;
+}
+
+#backsecendstars p{
+    padding: 0px 5px 0px 0px; 
+}
+
+
+
+
+
+
+
+
+#backsecendleftthird{
+    width: 100%;
+    height: 210px;
+    background-color: #ecf0f1;
+    padding: 0px;
+    display: flex; 
+}
+
+#backsecendthirdparta{
+
+    width: 50%;
+    height: 100%;
+    background-color:#ecf0f1; 
+    padding: 5px 0px;
+}
+
+#backsecendpartaup{
+
+    width: 100%;
+    height: 50%;
+    background-color:#bdc3c7;
+    display: flex;
+    margin-bottom: 5px;
+
+
+
+}
+
+#backsecendpartaupimag{
+    width: 25%;
+    height: 100%;
+    background-image: url('a\ girl\ car\ web.jpg');
+    background-size: cover;
+}
+
+#backsecendpartaupcontain{
+    width: 75%;
+    height: 100%;
+    background-color:#ecf0f1;
+    padding: 0px 8px;
+    
+
+}
+
+#backsecendpartaupcontain h1{
+
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+#backsecendpartaupcontain h2{
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+color: gray;
+
+}
+
+
+#backsecendpartadown{
+
+    width: 100%;
+    height: 50%;
+    background-color:#ecf0f1;
+    display: flex;
+
+
+
+}
+
+
+#backsecendpartadownimag{
+    background-image: url('websteve.jpg');
+
+}
+
+
+
+
+
+#backsecendthirdpartb{
+
+    width: 50%;
+    height: 100%;
+    background-color:#ecf0f1;
+    padding: 5px;
+}
+
+#backsecendpartbup{
+
+    width: 100%;
+    height: 50%;
+    background-color:#ecf0f1;
+    display: flex;
+    margin-bottom: 5px;
+
+
+}
+
+#backsecendpartbupimag{
+    width: 25%;
+    height: 100%;
+    background-image: url('websteve.jpg');
+
+    background-size: cover;
+}
+
+#backsecendpartbupcontain{
+    width: 75%;
+    height: 100%;
+    background-color:#ecf0f1;
+    padding: 5px;
+}
+
+#backsecendpartbupcontain h1{
+
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+#backsecendpartbupcontain h2{
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+color: gray;
+
+}
+
+
+
+
+#backsecendpartbdown{
+
+    width: 100%;
+    height: 50%;
+    background-color:#ecf0f1;
+    display: flex;
+
+
+}
+
+#backsecendpartbdownimag{
+    width: 25%;
+    height: 100%;
+    background-image: url('publictransport.jpg');
+    background-size: cover;
+}
+
+#backsecendpartbdowncontain{
+    width: 75%;
+    height: 100%;
+    background-color:#ecf0f1;
+    padding: 5px;
+}
+
+#backsecendpartbdowncontain h1{
+
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+#backsecendpartbdowncontain h2{
+font-size: 15px;
+color: gray;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+#backsecendright{
+    width: 30%;
+    height: 90%;
+    background-color: #ecf0f1;
+    padding: 10px 0px 10px 10px;
+}
+
+#backsecendrightpartfirst{
+
+    width: 100%;
+    height:100px;
+    background-color:#ecf0f1;
+    display: flex;
+}
+
+#backsecendrightpartfirstimag{
+
+    width: 35%;
+    height: 100%;
+    background-image: url('webcom.jpg');
+    background-size: cover;
+}
+
+#backsecendrightpartfirstcontain{
+
+    width: 70%;
+    height: 100%;
+    background-color: #ecf0f1;
+    padding: 5px;
+
+}
+
+#backsecendrightpartfirstcontain h1{
+
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+#backsecendrightpartfirstcontain h2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+color: gray;
+}
+
+
+
+
+
+
+
+
+
+#backsecendrightpartsecend{
+
+    width: 100%;
+    height: 70px;
+    background-color:#ecf0f1;
+    padding: 15px 0px;
+
+}
+
+#backsecendrightpartsecend button{
+
+    width: 100%;
+    padding: 10px 10px;
+    text-align: left;
+    color: white;
+    background-color: #232525;
+    border: none;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#backsecendrightpartthird{
+
+  width: 100%;
+  height: 90px;
+  background-color:#ecf0f1;  
+  display: flex;
+  padding: 5px 0px; 
+  border-bottom: 1px solid gray; 
+}
+
+
+#backsecendrightpartthirdimag{
+
+    width: 30%;
+    height: 100%;
+    background-image: url('webtreelogo.jpg');
+    background-size: cover;
+    border: 1px solid gray;
+
+
+}
+
+#backsecendrightpartthirdcontain{
+
+    width: 70%;
+    height: 100%;
+    background-color: #ecf0f1;
+    padding: 10px;
+ 
+}
+
+#backsecendrightpartthirdcontain h1{
+  font-family: Arial, Helvetica, sans-serif;
+ font-size: 25px;
+ padding-bottom: 5px;
+}
+
+#backsecendrightpartthirdcontain h1 span{
+
+    font-size: 15px;
+    color: gray;
+}
+
+
+#backsecendrightpartthirdcontain button{
+ 
+    padding: 3px 50px;
+    font-size: 16px;
+
+}
+
+#backsecendrightpartthirdcontain button span{
+
+    font-size: 25px;
+    color: rgb(49, 49, 49);
+}
+
+
+
+#backsecendrightpartfour{
+
+    width: 100%;
+    height: 270px;
+    background-color:#ecf0f1;
+    padding: 5px 0px;
+}
+
+#backsecendrightpartfour h3{
+   font-size: 18px;
+   padding-bottom: 10px;
+   margin-left: 10px;
+}
+
+
+#backsecendrightpartfourboxa{
+
+    width: 100%;
+    height: 100px;
+    
+    margin-bottom: 10px;
+    display: flex;
+
+   
+}
+
+#boxadiva{
+    width: 130px;
+    height: 100px;
+    background-image: url('webbike2.jpg');
+    background-size: cover;
+    margin-right: 3px;
+}
+
+#boxadivb{
+    width: 130px;
+    height: 100px;
+    background-image: url('webbike3.jpg');
+    background-size: cover;
+    margin-right: 3px;
+}
+
+#boxadivc{
+    width: 130px;
+    height: 100px;
+    background-image: url('webbike1.jpg');
+    background-size: cover;
+    margin-right: 3px;
+}
+
+
+#backsecendrightpartfourboxb{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+   
+}
+
+#boxbdiva{
+    width: 130px;
+    height: 100px;
+    background-image: url('webcar1.jpg');
+    background-size: cover;
+    margin-right: 3px;
+}
+
+#boxbdivb{
+    width: 130px;
+    height: 100px;
+    background-image: url('webcar2.jpg');
+    background-size: cover;
+    margin-right: 3px;
+}
+
+#boxbdivc{
+    width: 130px;
+    height: 100px;
+    background-image: url('webcar3.jpg');
+    background-size: cover;
+    margin-right: 3px;
+}
+
+
+
+
+#backthird{
+
+    width: 100%;
+    height: 100%;
+    background-color: #ecf0f1;
+
+    display: flex;
+    padding: 10px 0px;
+
+}
+
+#backthirdleft{
+    width: 70%;
+    height: 100%;
+    background-color:#ecf0f1;
+}
+
+
+#backthirdleftfirst{
+ 
+    width: 100%;
+    height: 10%;
+    background-color: #cdd0d1;
+    border-bottom: 4px solid black;
+    padding: 10px 0px;
+}
+
+#backthirdleftfirst h1{
+
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+
+#backthirdleftsecend{
+
+    width: 100%;
+    height: 45%;
+    background-color: #ecf0f1;
+    padding: 10px 0px;
+    display: flex;
+}
+
+#backthirdleftsecendimag{
+
+    width: 50%;
+    height: 100%;
+    background-image: url('webbeutitree.jpg');
+    background-size: cover;
+    
+
+}
+
+#backthirdleftsecendcontain{
+
+    width: 50%;
+    height: 100%;
+    background-color: #ecf0f1;
+    padding: 0px 10px;
+}
+
+
+#backthirdleftsecendcontain h1{
+   
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#backthirdleftsecendcontain h2{
+
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 95, 95);
+}
+
+#backthirdleftsecendcontain p{
+
+    margin-bottom: 10px;
+    
+}
+
+
+#backthirdleftsecendcontain button{
+
+    padding:5px 20px;
+    margin-bottom: 10px;
+}
+
+#backthirdstars{
+
+    display: flex;
+    color: #f1c40f;
+
+}
+
+#backthirdstars p{
+
+    margin-right: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#backthirdleftthird{
+
+    width: 100%;
+    height: 45%;
+    background-color: #ecf0f1;
+    padding: 10px 0px;
+    display: flex;
+}
+
+#backthirdleftthirda{
+
+    width: 50%;
+    height: 100%;
+    background-color: #ecf0f1;
+    padding: 6px 0px;
+}
+
+#backthirdleftthirdaup{
+
+    width: 100%;
+    height: 50%;
+    background-color: #ecf0f1;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#backthirdleftthirdaupimag{
+
+width: 34%;
+height: 100%;
+background-image: url('wbchinawall.jpg');
+background-size: cover;
+
+}
+
+#backthirdleftthirdaupcontain{
+
+ width: 70%;
+ height: 100%;
+ background-color:#ecf0f1;
+ padding: 0px 10px;
+
+
+}
+
+#backthirdleftthirdaupcontain h1{
+  
+    font-size: 20px;
+    padding-bottom: 10px;
+ font-family: 'Roboto', sans-serif;
+
+}
+
+#backthirdleftthirdaupcontain h3{
+
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#backthirdleftthirdadown{
+
+    width: 100%;
+    height: 50%;
+    background-color: #ecf0f1;
+    display: flex;
+}
+
+#backthirdleftthirdadownimag{
+
+    width: 34%;
+    height: 100%;
+    background-image: url('webgoggle.jpg');
+    background-size: cover;
+    
+    }
+    
+    #backthirdleftthirdadowncontain{
+    
+     width: 70%;
+     height: 100%;
+     background-color:#ecf0f1;
+     padding: 0px 10px;
+    
+    }
+
+    #backthirdleftthirdadowncontain h1{
+
+        font-size: 20px;
+        padding-bottom: 10px;
+ font-family: 'Roboto', sans-serif;
+        
+
+    }
+
+    #backthirdleftthirdadowncontain h3{
+    
+    
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    
+    }
+
+
+
+
+
+
+#backthirdleftthirdb{
+
+    width: 50%;
+    height: 100%;
+    background-color:#ecf0f1;
+    padding: 5px;
+
+
+}
+
+
+
+#backthirdleftthirdbup{
+
+    width: 100%;
+    height: 50%;
+    background-color: #ecf0f1;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+#backthirdleftthirdbupimag{
+
+    width: 38%;
+    height: 100%;
+    background-image: url('applemouse3.jpg');
+    background-size: cover;
+
+    
+    }
+    
+    #backthirdleftthirdbupcontain{
+    
+     width: 65%;
+     height: 100%;
+     background-color:#ecf0f1;
+     padding: 0px 10px;
+    
+    }
+
+
+    #backthirdleftthirdbupcontain h1{
+    
+        font-size: 20px;
+        padding-bottom: 10px;
+ font-family: 'Roboto', sans-serif;
+
+
+    }
+
+    #backthirdleftthirdbupcontain h3{
+    
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+
+
+
+
+
+#backthirdleftthirdbdown{
+
+    width: 100%;
+    height: 50%;
+    background-color: #ecf0f1;
+    display: flex;
+}
+
+
+#backthirdleftthirdbdownimag{
+
+    width: 38%;
+    height: 100%;
+    background-image: url('teblet.jpg');
+    background-size: cover;
+    
+    }
+    
+    #backthirdleftthirdbdowncontain{
+    
+     width: 65%;
+     height: 100%;
+     background-color:#ecf0f1;
+     padding:  0px 10px;
+    
+    }
+
+
+    #backthirdleftthirdbdowncontain h1{
+    
+        font-size: 20px;
+        padding-bottom: 10px;
+ font-family: 'Roboto', sans-serif;
+
+    
+    }
+
+
+    #backthirdleftthirdbdowncontain h3{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+
+    }
+
+
+
+
+
+
+
+
+#backthirdright{
+    width: 30%;
+    height: 100%;
+    background-color: #ecf0f1;
+    padding: 0px 0px 10px 10px;
+}
+
+
+#backthirdrightfirst{
+width: 100%;
+height: 50%;
+background-color: #ecf0f1;
+border-bottom: 4px solid black;
+
+}
+
+#backthirdrightfirst button{
+
+    width: 100%;
+    padding: 5px 0px;
+    background-color: #232525;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    border: none;
+ font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+
+#backthirdrightcontain{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#backthirdrightcontain p{
+
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+#backthirdrightsecend{
+
+    width: 100%;
+    height: 50%;
+    background-color: #ecf0f1;
+    padding: 20px 0px;
+}
+
+
+#backthirdrightsecend button{
+
+    width: 100%;
+    padding: 6px 0px;
+    background-color: #232525;
+    color: white;
+ font-family: 'Roboto', sans-serif;
+
+    text-align: left;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#backthirdrightsecendparta{
+
+    width: 100%;
+    height: 110px;
+    background-color:#ecf0f1;
+    display: flex;
+    margin-bottom: 5px;
+
+}
+
+#backthirdaboxa
+{
+    width: 120px;
+    height: inherit;
+    background-image: url('hoolymodel1.jpg');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+#backthirdaboxb
+{
+    width: 120px;
+    height: inherit;
+    background-image: url('model22.jpg');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+#backthirdaboxc
+{
+    width: 120px;
+    height: inherit;
+    background-image: url('model21.jpg');
+    background-size: cover;
+}
+
+#backthirdrightsecendpartb{
+
+    width: 100%;
+    height: 110px;
+    background-color: #ecf0f1;
+    display: flex;
+}
+
+
+
+#backthirdbboxa
+{
+    width: 120px;
+    height: inherit;
+    background-image: url('model23.jpg');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+#backthirdbboxb
+{
+    width: 120px;
+    height: inherit;
+    background-image: url('model24.jpg');
+    background-size: cover;
+    margin-right: 10px;
+}
+
+#backthirdbboxc
+{
+    width: 120px;
+    height: inherit;
+    background-image: url('model25.png');
+    background-size: cover;
+}
+
+
+
+
+
+
+#end{
+    width: 100%;
+    height: 100%;
+    background-color:#2d3436;
+    padding: 10px;
+}
+
+#endup{
+    width: 100%;
+    height: 85%;
+    background-color: #2d3436;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+#endparta{
+    width: 23%;
+    height: 100%;
+    background-color: #2d3436;
+
+}
+
+#endparta h1{
+    padding:10px 7px 30px 5px; 
+    color: white;
+
+ font-family: 'Roboto', sans-serif;
+
+}
+
+#endpartaup{
+    width: 100%;
+    height: 100px;
+    background-color:#2d3436 ;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+#endpartaupimag
+{
+    width: 40%;
+    height: 100%;
+    background-image: url('airo.jpg');
+    background-size: cover;
+}
+
+#endpartaupcontain{
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+}
+
+#endpartaupcontain h1{
+
+    font-size: 15px;
+ font-family: 'Roboto', sans-serif;
+padding-bottom: 10px;
+ 
+
+}
+
+#endpartaupcontain h2{
+
+    font-size: 15px;
+    color: gray;
+    padding: 0px 10px;
+}
+
+
+
+
+#endpartadown{
+    width: 100%;
+    height: 100px;
+    background-color:#2d3436 ;
+    
+    display: flex;
+
+}
+
+
+#endpartadownimag
+{
+    width: 40%;
+    height: 100%;
+    background-image: url('apple.png');
+    background-color: gray;
+    background-size: cover;
+}
+
+#endpartadowncontain{
+    width: 70%;
+    height: 100%;
+    background-color:#2d3436 ;
+    
+    padding: 0px 10px;
+}
+
+#endpartadowncontain h1{
+
+    font-size: 15px;
+ font-family: 'Roboto', sans-serif;
+padding-bottom: 10px;
+ 
+
+}
+
+#endpartadowncontain h2{
+
+    font-size: 15px;
+    color: gray;
+}
+
+
+
+
+
+#endpartb{
+    width: 23%;
+    height: 100%;
+    background-color:#2d3436;
+    padding: 10px 0px;
+}
+
+#endpartb h1{
+    padding-bottom: 30px;
+ font-family: 'Roboto', sans-serif;
+ color: white;
+ padding: 0px;
+ padding-bottom: 30px;
+
+
+
+
+}
+
+#endpartbup{
+
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#endpartbupimag{
+    width: 45%;
+    height: 100%;
+    background-image: url('wbchinawall.jpg');
+    background-size: cover;
+}
+
+#endpartbupcontain{
+    width: 60%;
+    height: 100%;
+    background-color:#2d3436;
+    padding: 10px;
+}
+
+#endpartbupcontain h1{
+
+    font-size: 15px;
+    padding-bottom: 10px;
+ font-family: 'Roboto', sans-serif;
+
+
+}
+
+#endpartbupcontain h2{
+
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+
+
+
+#endpartbdown{
+
+    width: 100%;
+    height: 100px;
+    background-color: #2d3436;
+    display: flex;
+}
+
+#endpartbdownimag{
+    width: 45%;
+    height: 100%;
+    background-image: url('webgirlcar.jpg');
+    background-size: cover;
+}
+
+#endpartbdowncontain{
+    width: 60%;
+    height: 100%;
+    background-color: #2d3436;
+    padding: 10px;
+   
+}
+
+#endpartbdowncontain h1{
+
+    font-size: 15px;
+    padding-bottom: 10px;
+ font-family: 'Roboto', sans-serif;
+
+
+}
+
+#endpartbdowncontain h2{
+
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+
+
+
+
+
+
+#endpartc{
+    width: 23%;
+    height: 100%;
+    background-color: #2d3436;
+    padding: 10px 0px;
+}
+
+#endpartc h1{
+    padding-bottom: 30px;
+    color: white;
+ font-family: 'Roboto', sans-serif;
+ 
+
+    
+}
+
+
+
+
+#endpartcfirst
+{
+    width: 100%;
+    height: 100px;
+    
+    margin-bottom: 30px;
+    display: flex;
+}
+
+#endpartfirstboxa{
+    width: 150px;
+    height: 100%;
+    background-image: url('Trump.jpg');
+    background-size: cover;
+    margin-right: 10px;
+
+}
+
+#endpartfirstboxb{
+
+    width: 150px;
+    height: 100%;
+    background-image: url('fifa.jpg');
+    background-size: cover;
+
+}
+
+#endpartcsecend
+{
+    width: 100%;
+    height: 100px;
+    
+    margin-bottom: 30px;
+    display: flex;
+
+}
+
+#endpartsecendboxa{
+    width: 150px;
+    height: 100%;
+    background-image: url('london.jpg');
+    background-size: cover;
+    margin-right: 10px;
+
+}
+
+#endpartsecendboxb{
+
+    width: 150px;
+    height: 100%;
+    background-image: url('bullet.jpg');
+    background-size: cover;
+
+}
+
+
+#endpartcthird
+{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+}
+
+#endpartthirdboxa{
+    width: 150px;
+    height: 100%;
+    background-image: url('setlight.jpg');
+    background-size: cover;
+    margin-right: 10px;
+
+}
+
+#endpartthirdboxb{
+
+    width: 150px;
+    height: 100%;
+    background-image: url('gogool.jpeg');
+    background-size: cover;
+
+}
+
+#endpartd{
+    width: 23%;
+    height: 100%;
+    background-color: #2d3436;
+}
+
+#endpartd h1{
+
+ 
+    padding: 10px 0px;
+ font-family: 'Roboto', sans-serif;
+ color: white;
+padding-bottom: 30px;
+
+}
+
+
+#information{
+    width: 100%;
+    height: 350px;
+    padding: 10px 10px 10px 0px;
+}
+
+#informationparta{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+#informationparta button{
+    padding: 6px 10px;
+    border: none;
+
+}
+
+
+#informationpartb{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+#informationpartb button{
+    padding: 6px 10px;
+    border: none;
+
+}
+
+#informationpartc{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+#informationpartc button{
+    padding: 6px 10px;
+    border: none;
+}
+
+#informationpartd{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+#informationpartd button{
+    padding: 6px 10px;
+    border: none;
+}
+
+
+#informationparte{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+#informationpartf{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+#informationparte button{
+    padding: 6px 10px;
+    border: none;
+}
+
+
+#informationpartf button{
+    padding: 6px 10px;
+    border: none;
+}
+
+
+
+
+#enddown{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+
+}
+
+
+
+#enddownpartleft{
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    font-size: 12px;
+}
+
+
+#enddownpartleft h1 span{
+
+    color: red;
+}
+
+#enddownpartleft button{
+    width: 50%;
+    position: relative;
+    font-size: 15px;
+    position: relative;
+    left: 120px;
+    background-color: transparent;
+    color: white;
+    border: none;
+
+}
+
+
+
+
+
+#enddownpartright{
+    width: 50%;
+    height: 100%;
+    
+    padding: 10px;
+
+}
+
+#enddownicons{
+    display: flex;
+    font-size: 30px;   
+    justify-content: space-evenly; 
+}
+
+
+#ko{
+    color: #f7cd27;
+}
+
+#koo{
+    color: #e96711;
+}
+
+#kooo{
+    color: #5cb8f5;
+}
+
+#koooo{
+    color: #f10a7a;
+}
+
+#kooooo{
+    color: #d63031;
+}
+
+#mo{
+    color: #93c1f0;
+}
+
+#moo{
+    color: rgb(28, 28, 194);
+}
+
+#mooo{
+    color: white;
+}
+
+#moooo{
+    color: #e75b38;
+}
+
+#mooooo{
+    color: #4461b1;
+}
+
+
+
+
+
+
+
+
